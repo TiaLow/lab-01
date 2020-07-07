@@ -77,6 +77,8 @@ footer {
 }
 
 
-@media only screen and (min-width: 480px){
-  
+@media only screen and (min-width:480px){
+  header{
+    width: 900px;
+  }
 }
