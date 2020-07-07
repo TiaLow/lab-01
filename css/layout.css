@@ -1,22 +1,18 @@
 /* mobile first!! */
 
-
 header{
-  /* border: 1px solid black; */
   background-color: rgb(2, 53, 56);
   height: 75px;
   line-height: 75px;
 }
 
 aside {
-  /* border: 1px solid black; */
   background-color: rgb(10, 85, 88);
   height: 150px;
   line-height: 150px;
 }
 
 section {
-  /* border: 1px solid black; */
   height: 125px;
   line-height: 125px;
 }
@@ -30,12 +26,10 @@ section {
 }
 
 div{
-  /* border: 1px solid black; */
   height: 250px;
 }
+
 .left {
-  /* border: 1px solid black; */
-  /* background-color: rgb(63, 204, 209); */
   width: 50%;
   height: 250px;
   line-height: 250px;
@@ -68,12 +62,10 @@ div{
 footer {
   height: 80px;
   line-height: 80px;
-  /* border: 1px solid black; */
   background-color:rgb(219, 247, 248);
-
 }
 
-
+/* media query for desktop version */
 @media only screen and (min-width:480px){
   *{
     box-sizing: border-box;
@@ -86,7 +78,6 @@ footer {
   }
   
   header{
-    /* border: 1px solid black; */
     background-color: rgb(66, 48, 187);
     width: 960px;
     height: 100px;
@@ -94,7 +85,6 @@ footer {
   }
   
   aside {
-    /* border: 1px solid black; */
     background-color: rgb(91, 68, 238);
     width: 200px;
     height: 600px;
@@ -103,7 +93,6 @@ footer {
   }
   
   section {
-    /* border: 1px solid black; */
     width: 380px;
     height: 200px;
     line-height: 200px;
@@ -120,14 +109,12 @@ footer {
   }
   
   div{
-    /* border: 1px solid black; */
     height: 250px;
     width: 380px;
     float: left;
   }
+
   .left {
-    /* border: 1px solid black; */
-    /* background-color: rgb(63, 204, 209); */
     width: 50%;
     height: 250px;
     line-height: 250px;
@@ -162,8 +149,6 @@ footer {
     height: 150px;
     line-height: 150px;
     float: left;
-    /* border: 1px solid black; */
     background-color:rgb(161, 157, 197);
-  
   }
 }
