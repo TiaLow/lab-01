@@ -5,5 +5,6 @@ Monday, July 6<sup>th</sup>
 ### Author
 - Tia Low
 
-### Collaborations
-- (collaborated with classmates?)
+### Resources
+- http://stephen.io/mediaqueries/#iPad
+- https://css-tricks.com/snippets/css/ipad-specific-css/
