@@ -1,0 +1,62 @@
+/* body{
+  background-color: purple;
+} */
+
+/* @media only screen and (max-width: 480){
+  put CSS rules for devices with max width of 500px
+} */
+
+*, header{
+  box-sizing: border-box;
+  text-align: center;
+  width: 480px;
+}
+
+header{
+  border: 1px solid black;
+  height: 75px;
+  line-height: 75px;
+}
+
+aside {
+  border: 1px solid black;
+  height: 150px;
+  line-height: 150px;
+}
+
+section {
+  border: 1px solid black;
+  height: 125px;
+  line-height: 125px;
+}
+
+div{
+  border: 1px solid black;
+  height: 250px;
+}
+.left {
+  /* background-color: red; */
+  border: 1px solid black;
+  width: 50%;
+  height: 250px;
+  line-height: 250px;
+  float: left;
+}
+
+.right {
+  /* background-color: purple; */
+  width: 50%;
+  height: 250px;
+  line-height: 250px;
+  float: right;
+}
+
+#footer {
+  height: 80px;
+  line-height: 80px;
+}
+
+
+@media only screen and (min-width: 480px){
+  
+}
